@@ -60,7 +60,7 @@
 }
 /* Footer form */
 .footer-form {
-  margin-left: 82px;
+  margin-left: 83px;
 }
 .footer-form-title {
   margin-bottom: 16px;
@@ -101,7 +101,8 @@
   transition-property: border-color;
 }
 
-.footer-form-input:hover {
+.footer-form-input:hover,
+.footer-form-input:focus {
   border-color: #31d0aa;
 }
 
@@ -159,7 +160,8 @@
   transition-property: background-color;
 }
 
-.footer-form-btn:hover {
+.footer-form-btn:hover,
+.footer-form-btn:focus {
   background-color: #31d0aa;
 }
 .footer-form-icon {
